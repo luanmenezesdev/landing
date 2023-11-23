@@ -1,0 +1,59 @@
+.first-section {
+    position: relative;
+
+    padding: 10vh 0;
+
+    background-image: url('../assets/first-section.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.first-section::before {
+    position: absolute;
+    top: 0;
+    content: '';
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, 70%);
+
+    z-index: 10;
+}
+
+.first-section .wrapper {
+    position: relative;
+
+    z-index: 20;
+}
+
+.first-section h1 {
+    width: 50%;
+
+    font-size: 72px;
+    line-height: 88px;
+    font-weight: 700;
+
+    color: #fff;
+}
+
+.first-section h1 span {
+    color: #34D399;
+}
+
+.first-section p {
+    width: 50%;
+
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin: 24px 0 48px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+}
