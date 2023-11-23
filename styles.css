@@ -1,0 +1,66 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    height: 80px;
+    background-color: #fff;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 30%);
+}
+
+.alter {
+    
+}
+
+.container {
+    width: 100%;
+
+    margin-left: 80px;
+    margin-right: 80px;
+
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 84px;
+    height: 64px;
+
+    margin-right: 56px;
+}
+
+.menu {
+    display: flex;
+
+    gap: 40px;
+}
+
+.menu a {
+    color: #475467;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+
+    text-decoration: none;
+}
+
+.cta-button {
+    margin-left: auto;
+
+    width: 125px;
+    height: 44px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #34D399;
+    color: #fff;
+    font-weight: 600;
+
+    cursor: pointer;
+}
